@@ -1,0 +1,26 @@
+text,expected_label,notes,intensity,emotion_subtype
+I can't do this anymore,sadness,Emotional breakdown,high,emotional_saturation
+Book a cab and cancel later,multi_intent,Multiple action intents | Subdued confusion in user intent,low,subdued_confusion
+Not bad at all!,positive,Negated phrasing but positive sentiment | Contains elements of mild surprise and contentment,medium,contentment_surprise
+"You're killing it, man!",joy,Slang positive | Joyful slang expressing encouragement for others,high,celebratory_support
+I don’t want to talk to you,anger,"Primary anger with disapproval; secondary emotional resistance, not pure avoidance",medium,disapproval_resistance
+This is so sick!,ambiguous,"Ambiguous slang; Gen-Z usage may imply joy + surprise ('cool!'), while tone-dependent use can signal disgust. Delivery-dependent classification.",high,slang_joy_or_disgust
+Can you cancel my subscription?,cancel_request,Straightforward service request. No emotional content.,none,direct_intent
+Never been better,positive,Stable contentment and optimistic phrasing. Not euphoric.,medium,content_outlook
+I’d rather not go,avoidance,Mild refusal with something left unsaid.,low,implied_discomfort
+"It’s fine, whatever",resignation,Phrase implies emotional withdrawal. Not actually “fine”.,low,mild_disappointment
+He was shouting at me,discontent,"Not full anger, but definite upset from external provocation.",medium,third_party_aggression
+My heart is heavy today,longing,Poetic sadness or overwhelm. Ambiguous but heartfelt.,medium,subdued_emotion
+What a joke,sarcasm,Sarcastic expression implying frustration and letdown.,medium,mocking_disappointment
+"Cancel and refund both, please",dual_intent,Two clear service actions. Not confused multi-intent.,medium,clear_action_request
+I guess I’m okay,ambiguous,"Unclear tone, hedged phrasing. Could imply sadness or fatigue.",low,masked_distress
+Get out of my face,anger,"Direct imperative, high emotional charge, clearly aggressive.",high,aggressive_command
+"It’s nothing, really",deflection,Minimization with underlying sadness or vulnerability.,medium,suppressed_sadness
+I feel sick when I see that,disgust,Clear emotional recoil; sensory or moral disgust.,medium,revulsion_trigger
+I love this!,joy,"Undeniable joy. Strong, clean affect signal.",high,clear_positive
+I’m not sure I care anymore,avoidance,"Detached phrasing, internal emotion not externally visible.",medium,emotional_withdrawal
+I don’t want to talk to you,anger,Avoidance + emotional resistance,medium,rejection
+This is so sick!,joy,"Slang positive, context-sensitive",high,excited_slang
+Can you cancel my subscription?,cancel_request,Intent detection,low,service_action
+Never been better,joy,"Negated structure, positive meaning",medium,confident_wellbeing
+I’d rather not go,avoidance,Mild resistance expression,low,soft_refusal
