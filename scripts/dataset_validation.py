@@ -22,3 +22,6 @@ print(df["label_name"].value_counts())
 # Show a few random samples
 print("\n📌 Sample rows:")
 print(df[["text", "label_name"]].sample(5))
+
+# Save the DataFrame to a CSV file
+output_file = "emotion_dataset.csv"
